@@ -1,0 +1,52 @@
+﻿Git spurningar og svör
+
+1. Hvað gera eftirfarandi Linux skipanir?
+	Cd
+	Svar: Færir notanda í möppuna á undan
+	cd ~
+	Svar: Bæði færir notandan í möppuna á undan og merkir hana með „~“ merkinu til að auðveldara það sé að flakka á milli seinna
+	Ls
+	Svar: Skrifar upplýsingar um fileana
+	Pwd
+	Svar: Finnur allar upplýsingar um leiðina á þessa slóð
+	Mkdir
+	Svar: Býr til nýar möppu eða file
+
+2. Hvað gera eftirfarandi git skipanir og hvers vegna eru þær gagnlegar?
+	git clone
+	Svar: Klónar github repository í nýja möppu
+	git log
+	Svar: Sýnir allar breytingar sem hafa verið gerðar
+	git status
+	Svar: sýnir notanda allar upplýsingar um repository og breytingar
+	git diff
+	Svar: sýnir notanda allar breytingar
+	git checkout
+	Svar: Þá getur notandi breytt um grein
+
+3. Hver er munurinn á eftirfarandi git skipunum:
+	a) git diff 
+	Svar: Birtir breytingar á núverandi staðsetningu
+	b) git diff --staged 
+	Svar: Birtir  breytingar á milli head og index
+	c) git diff commit1 commit2
+	Svar: Sýnir munin á commit1 og commit2
+
+
+4. Hvað er útgáfustýring (e.version control)??
+	Svar: Gefur kóðanum útgáfu svo að notandi viti hvað var gert fyrst og hvaða breytingar eru nýrri
+
+5. Hverjir eru helstu kostir við að nota GIT?
+	Svar: Margir geta unnið saman að einu verkefni. Allir geta fylgst með breytingum og séð hverju nákvæmlega hverju var breytt
+
+6. Hversu oft telur þú að eigi að gera commit í verkefni, rökstuddu?
+	Svar: Þegar þú ert búin að gera breytingar sem virka, ekki oftar, svo
+	að það fillist ekki af breytingum sem virka ekki
+
+7. Hvað er "Working directory"?" "Staging area"?" og "Repository" í GIT?
+	Svar: Working directory: Er þegar notandi er að skrifa kóðann
+	Staging area: Er þegar notandi er að nota commit setninguna
+	Repository: Er geymslan sem geymir allt saman
+
+8. Hvenær er sniðugt að nota greinar (branches)? 
+	Svar: Þegar maður vill prófa nýja hluti án þess að festa þá í verkefninu, þá er gott að geyma þær í greinum
